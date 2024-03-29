@@ -62,10 +62,10 @@ main h1 {
 
 main h2 {
     padding: 32px 0px;
-    width: 50vw;
+    padding-left: 1em;
+    width: 70vw;
     margin-top: 64px;
-    background-color: var(--lightGrey);
-    text-align: center;
+    text-align: start;
     border-radius: 6px;
     font-family: "Montserrat-Bold";
 }
@@ -135,9 +135,9 @@ section .line {
     grid-row: 1/1;
 }
 
-section button {
+button {
     background-color: var(--pink);
-    font-size: 1em;
+    font-size: 16px;
     padding: 16px;
     margin: 8px 0px;
     border: 0px;
@@ -153,9 +153,19 @@ section button {
     grid-row: 1/1;
 }
 
-section button:hover {
+button:hover {
     opacity: 0.8;
     cursor: pointer;
+}
+
+.see-all {
+    width: 70vw;
+}
+
+.links {
+    margin: 1em 0 0 0;
+    align-self: flex-start;
+    width: 20vw;
 }
 
 @media (max-width:950px) {
