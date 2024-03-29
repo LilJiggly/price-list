@@ -137,6 +137,7 @@ section .line {
 
 section button {
     background-color: var(--pink);
+    font-size: 1em;
     padding: 16px;
     margin: 8px 0px;
     border: 0px;
