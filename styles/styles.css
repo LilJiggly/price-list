@@ -96,7 +96,7 @@ section:nth-of-type(even) {
 
 section img {
     margin: 8px;
-    width: 70%;
+    width: calc(100% - 1em);
     height: auto;
     aspect-ratio: 1/1;
     grid-column: 1/2;
@@ -188,7 +188,7 @@ button:hover {
     section img {
         margin: 8px;
         padding: 0;
-        width: 80%;
+        width: calc(100% - 1em);
         height: auto;
     }
 
